@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "module": "CommonJS",
+        "target": "ES2022",
+        "types": [
+            "node",
+            "@wdio/globals/types",
+            "expect-webdriverio",
+            "@wdio/cucumber-framework"
+        ],
+        "strict": true, 
+    },
+    "include": [
+        "./pages/*.ts",
+        "stepDefintions/**/*.ts"
+, "utilities/basePage.ts"    ]
+}

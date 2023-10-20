@@ -1,0 +1,26 @@
+{
+  "name": "wdio_cucumber",
+  "version": "1.0.2",
+  "author": "Srinivas",
+  "description": "Securian Financial Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run ./wdio.conf.js"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^8.16.11",
+    "@wdio/cucumber-framework": "^8.16.11",
+    "@wdio/local-runner": "^8.16.11",
+    "@wdio/spec-reporter": "^8.16.9",
+    "chromedriver": "^118.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "wdio-chromedriver-service": "^8.1.1",
+    "webdriverio": "^8.16.11"
+  },
+  "dependencies": {
+    "@wdio/allure-reporter": "^8.16.12"
+  }
+}
